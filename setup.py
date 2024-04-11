@@ -11,7 +11,7 @@ INSTALL_REQUIRES = [
     # to use Databricks and MLflow APIs
     "requests>=2.30.1,<3.0.0",
     "mlflow-skinny>=2.0.0,<3.0.0",
-    "databricks-cli>=0.17,<0.18",
+    "databricks-cli>=0.18,<0.19",
     "tenacity>=8.2.2,<=9.0.0",
     # CLI interface
     "click>=8.1.0,<9.0.0",
