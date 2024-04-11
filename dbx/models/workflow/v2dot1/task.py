@@ -1,7 +1,7 @@
 from enum import Enum
 from typing import Dict, List, Optional
 
-from pydantic import BaseModel, root_validator, validator
+from pydantic.v1 import BaseModel, root_validator, validator
 from pydantic.fields import Field
 
 from dbx.models.validators import at_least_one_of, check_dbt_commands, mutually_exclusive
